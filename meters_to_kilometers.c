@@ -1,6 +1,6 @@
 /*Rafael Carneiro Pregardier*/
 
-/*Program made to transfer the speed from meters per second to kilometers per hour.*/
+/*Program made to convert the speed from meters per second to kilometers per hour.*/
 
 #include <stdio.h> 
 

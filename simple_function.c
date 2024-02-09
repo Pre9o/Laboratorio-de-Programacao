@@ -33,14 +33,11 @@ void IPVA(){
         case 0: printf("O IPVA vence em Outubro");
                 break;
     }
-   
-
 }
 
 int main(){
     IPVA();
 
-     
     return 0;
 }
   

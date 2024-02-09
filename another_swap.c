@@ -10,9 +10,9 @@ int main(){
 
     printf("\nOs numeros sao: %d e %d", A, B);
 
-    A=A+B;
-    B=A-B;
-    A=A-B;
+    A = A + B;
+    B = A - B;
+    A = A - B;
 
     printf("\nOs numeros trocados sao: %d e %d", A, B);
 

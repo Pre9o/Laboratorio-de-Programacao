@@ -1,6 +1,8 @@
 #include <stdio.h>
+
+
 int main(){
-    int m[3][3], cont=0, i, l, c, j;
+    int m[3][3], cont=0, l, c;
 
     printf("Digite o numero de linhas da matriz:\n");
     scanf("%d", &l);
@@ -10,19 +12,19 @@ int main(){
 
     printf("Digite os numeros da matriz:\n");
 
-    for(i=0; i<l; i++){
-        for(j=0; j<c; j++){
+    for(int i = 0; i < l; i++){
+        for(int j = 0; j < c; j++){
             scanf("%d", &m[i][j]);
         }
     }
 
-    for(i=0; i<c; i++){
-        if(m[i][i]==1){
+    for(int i = 0; i < c; i++){
+        if(m[i][i] == 1){
             cont++;
         }
     }
 
-    if(cont==l){
+    if(cont == l){
         printf("A matriz eh identidade");
 
     }else{

@@ -24,10 +24,11 @@ int main(){
             }
         }
     }
-
+    
     matriz[trocados_i[0]][trocados_j[0]]=trocados_i[0];
     matriz[trocados_i[1]][trocados_j[1]]=trocados_i[1];
 
-
     printf("%d   %d\n", matriz[4][7], matriz[7][4]);
+
+    return 0;
 }

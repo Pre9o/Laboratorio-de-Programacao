@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 int copia(char *src, char *dest){
-    if(*src == '\0'){
-        *dest='\0';
+    if( *src == '\0'){
+        *dest = '\0';
         return 0;
     }
     *dest = *src;
@@ -12,8 +12,8 @@ int copia(char *src, char *dest){
 }
 
 int main(){
-    char *src = malloc(10*sizeof(char));
-    char *dest = malloc(10*sizeof(char));
+    char *src = malloc(10 * sizeof(char));
+    char *dest = malloc(10 * sizeof(char));
 
     printf("Digite a string: ");
     scanf("%s", src);

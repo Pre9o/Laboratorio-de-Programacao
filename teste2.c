@@ -1,23 +1,18 @@
 #include <stdio.h>
 
-int main()
-{
+int main(){
 
-int X, Y, Z;
-
-
-printf("digite aqui a idade: ");
-
-scanf("%d", &X);
-Z = 365;
-Y = X*Z;
+    int X, Y, Z;
 
 
-printf("aqui esta os dias: %d:", Y);
+    printf("digite aqui a idade: ");
 
-return 0;
+    scanf("%d", &X);
+    Z = 365;
+    Y = X*Z;
 
 
+    printf("aqui esta os dias: %d:", Y);
 
-
+    return 0;
 }

@@ -3,9 +3,10 @@
 char valor(unsigned char v){
     unsigned char mask1 = v>>7;
     unsigned char mask2 = v<<7;
-    mask2 = mask2>>7;
 
-    if(mask1==mask2){
+    mask2 = mask2 >> 7;
+
+    if(mask1 == mask2){
         return 1;
     }
     else{
@@ -22,7 +23,7 @@ int main(){
     printf("Digite um valor: \n");
     scanf("%d", &v);
 
-    sim=valor(v);
+    sim = valor(v);
 
     if(sim){
         printf("Valor valido\n");

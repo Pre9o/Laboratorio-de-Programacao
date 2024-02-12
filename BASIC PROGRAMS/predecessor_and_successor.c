@@ -3,7 +3,7 @@
 int main(){
     int X, Y, SUS, ANT; 
 
-    printf("\ncoloque os numeros aqui: \n");
+    printf("\nColoque os numeros aqui: \n");
 
     scanf("%d %d", &X, &Y);
 
@@ -11,7 +11,7 @@ int main(){
 
     ANT = --Y ;
 
-    printf("\no sucessor e o antecessor sao: %d e %d", SUS, ANT);
+    printf("\nO sucessor e o antecessor sao: %d e %d", SUS, ANT);
 
     return 0;
 }

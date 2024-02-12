@@ -37,5 +37,4 @@ int main(){
     printf("A maior idade eh %d e a menor idade eh %d e a media das notas eh %2.f\n", maioridade, menoridade, media);
 
     return 0;
-
 }

@@ -2,7 +2,7 @@
 
 
 int main(){
-    int n, cont=0, i, resto, conta=0;
+    int n, cont = 0, i, resto, conta = 0;
 
     printf("Digite um numero\n");
     scanf("%d", &n);
@@ -17,7 +17,7 @@ int main(){
         if(cont == 2){
             conta++;
         }
-        cont=0;
+        cont = 0;
         
         printf("Digite um numero\n");
         scanf("%d", &n);

@@ -30,7 +30,7 @@ int main(){
     printf("Digite a palavra:\n");
     scanf("%s", &palavra);
 
-    son=funcao(palavra);
+    son = funcao(palavra);
 
     if(son == 1){
         printf("A palavra eh palindroma!\n");
